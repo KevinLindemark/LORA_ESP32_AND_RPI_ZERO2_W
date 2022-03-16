@@ -1,5 +1,5 @@
 from raspi_lora import LoRa, ModemConfig
-# https://github.com/epeters13/pyLoraRFM9x
+# from https://gitlab.com/the-plant/raspi-lora
 # This is our callback function that runs when a message is received
 def on_recv(payload):
     print("From:", payload.header_from)
